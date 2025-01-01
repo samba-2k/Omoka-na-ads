@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omoka na ads</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Omoka na ads</h1>
+        <div id="content">
+            <div id="signup">
+                <h2>Sign Up</h2>
+                <form id="signupForm">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+            <div id="activate" class="hidden">
+                <h2>Activate Your Account</h2>
+                <p>Activate your account with Ksh 200</p>
+                <p><img src="mpesa_logo.png" alt="Mpesa Logo"> Pay to this number: 0712016165</p>
+                <button id="activateButton">Activate</button>
+            </div>
+            <div id="protected" class="hidden">
+                <h2>Enter Activation Password</h2>
+                <form id="passwordForm">
+                    <label for="activationPassword">Password:</label>
+                    <input type="password" id="activationPassword" name="activationPassword" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div id="finalPage" class="hidden">
+                <h2>Welcome to the Final Page</h2>
+                <p>254103361419</p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
